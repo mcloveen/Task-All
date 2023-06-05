@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-Alert</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .giris-yazisi {
+      color: white;
+      position: absolute;
+      right: 0;
+      margin-right: 750px;
+      margin-top: -30px;
+    }
+
+    .label-email {
+      color: white;
+    }
+
+    .label-password {
+      color: white;
+    }
+
+    .short-input {
+      max-width: 200px;
+    }
+
+    .center-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-top: -160px;
+    }
+
+    .header {
+      margin-bottom: 160px;
+    }
+  </style>
+</head>
+
+<body
+  style="background-image: url(assets/img/176-1762247_planets-in-our-solar-system-uhd-8k-wallpaper.jpg); background-size: cover; ">
+  <div class="container center-content">
+    <div class="header">
+      <h3 style="font-family: 'Times New Roman', Times, serif;" class="giris-yazisi">Space X: Giris</h3>
+    </div>
+    <div class="container center-content">
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email" class="label-email">E-mail:</label>
+          <input type="email" class="form-control short-input" id="email" placeholder="E-mail adresinizi yazin">
+        </div>
+        <div class="form-group">
+          <label for="password" class="label-password">Sifre:</label>
+          <input type="password" class="form-control short-input" id="password" placeholder="Sifrenizi yazin">
+        </div>
+        <button type="submit" class="btn btn-primary">Daxil olun</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
